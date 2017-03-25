@@ -36,7 +36,7 @@ function handleError(error) {
 function errorMsg(msg, error) {
   errorElement.innerHTML += '<p>' + msg + '</p>';
   if (typeof error !== 'undefined') {
-    console.error(error);
+    console.error(errror);
   }
 }
 
